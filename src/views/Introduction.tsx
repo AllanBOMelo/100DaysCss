@@ -1,7 +1,8 @@
+import React from 'react';
 import classNames from 'classnames';
 import styles from './Introduction.module.css';
 
-const Introduction: any = () => {
+const Introduction: React.FC = () => {
     return (
         <main className={styles.introductionView}>
             <div className={styles.introductionViewLogo}>
@@ -14,11 +15,6 @@ const Introduction: any = () => {
                 
                 <h1 className={classNames(styles.highlight, styles.text)}>DAYS</h1>
                 <span className={classNames(styles.span, styles.text)}>CSS CHALLENGE</span>
-            </div>
-
-            <div className={styles.introductionViewTitle}>
-                <h1>Welcome!</h1>
-                <span>Welcome to my freame gallery, where I'm listing my 100 days Css Challenge answers. I hope you enjoy!</span>
             </div>
         </main>
     )
