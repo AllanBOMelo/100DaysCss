@@ -1,0 +1,97 @@
+.introductionView {
+    width: 100vw;
+    height: 100vh;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+	justify-content: space-evenly;
+    background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%);
+}
+
+.introductionViewLogo {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+	scale: 1.2;
+}
+
+.hundred {
+	width: 20em;
+	height: 10em;
+	display: flex;	
+	position: relative;
+}
+
+.one {
+	content: '';
+	width: 2em;
+	height: 10em;
+	border-radius: 5px;
+	background: #ffffff;
+	position: absolute;
+	left: 1em;
+	z-index: 5;
+}
+
+.one_one {
+	content: '';
+	width: 2em;
+	height: 4em;
+	border-radius: 5px;
+	background: #dedede;
+	position: absolute;
+	left: -0.5em;
+	transform: rotate(45deg);
+	z-index: 2;
+}
+
+.zero {
+	content: '';
+	width: 6em;
+	height: 6em;
+	border-radius: 50%;
+	border: 2em solid #fff;
+	position: absolute;
+}
+
+.zero_one {
+	z-index: 3;
+	left: 2em	;
+}
+
+.zero_two {
+	z-index: 2;
+  right: 0em;
+}
+
+.shadow {
+	filter : drop-shadow(5px 0 5px #0000002c);
+}
+
+.highlight {
+	font-size: 8em;
+    line-height: 0.8em;
+}
+
+.span {
+    margin-top: -1em;
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.text {
+    height: fit-content;
+    margin: 0;
+	color: #fefefe;
+	font-family: "Courier";
+	text-align: center;
+}
+
+
+
+.introductionViewTitle {
+	width: 35%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
